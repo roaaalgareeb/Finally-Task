@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<title>Line Technology</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <div class ="logo">
+          <a class="navbar-brand" href="index.html"><img src="image/logom.png" alt="Logo"></a></div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="conect.html">Contact</a>
+              </li> 
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        
+        <section class="slide">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="image/s22.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/s1.png" class="img-fluid" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="container1">
+          <div class="container mt-5">
+            <h1>User Information Form</h1>
+            <form id="userInfoForm">
+              <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" class="form-control" id="firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" class="form-control" id="lastName" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="datbirth">Date of Birth:</label>
+                <input type="date" class="form-control" id="datbirth" required>
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select class="form-control" id="gender" required>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea class="form-control" id="address" rows="3" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="image">Upload Image:</label>
+                <input type="file" class="form-control-file" id="image" accept="image/*">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div id="submittedData" class="mt-5"></div>
+          </div>
+          
+        </section>
+        <h1> Services</h1>
+
+        <section class="car">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <div class="card">
+                          <img src="image/webbb.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <p class="card-text">Web Design</p>
+                              <p>Create visually appealing and user-friendly websites tailored to client needs.</p>
+                              <p>$500 - $2000</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card">
+                          <img src="image/Responsive Design1.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <p class="card-text">Responsive Design</p>
+                              <p>Ensure websites adapt seamlessly to various devices and screen size.</p>
+                              <p>$200 - $800</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card">
+                          <img src="image/SEO Optimization.webp" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <p class="card-text">SEO Optimization</p>
+                              <p>Optimize websites to improve search engine rankings and increase visibility.</p>
+                              <p>$300 - $1000</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card">
+                          <img src="image/E-commerce.webp" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <p class="card-text">E-commerce Integration</p>
+                              <p>Set up online stores with secure payment gateways and intuitive user interfaces.</p>
+                              <p>$800 - $3000</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="conect.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Promoted Content</h4>
+                    <p>Our project is the intersection of creativity and technology, 
+                        where we strive to deliver top-notch digital solutions to our clients.
+                         We offer services in website design and development, along with web application
+                          development and custom software solutions. With our stellar team of developers 
+                          and designers, we ensure the efficient and professional achievement of your technical goals.
+                           Discover today how we can help you bring your digital project vision to life!</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Coming Soon</h4>
+                    <p>VR elevates online experiences, allowing interactive product showcases, enhancing engagement, 
+                        and strengthening brand connection.</p>
+                    <img src="image/vr.webp" alt="Coming Soon" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
